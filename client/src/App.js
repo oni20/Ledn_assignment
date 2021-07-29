@@ -41,7 +41,7 @@ function App() {
           <Grid item xs={12}>
             {data
               ? <div className="App">
-                <Typography variant="h3" className={classes.title}>Tabular data using - Material Datagrid</Typography>
+                <Typography variant="h3" className={classes.title}>List of accounts</Typography>
                 <DataGrid data={data} />
               </div>
               : <Loading />
